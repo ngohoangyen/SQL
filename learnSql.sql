@@ -35,13 +35,13 @@ GO
 	ALTER TABLE product ADD price float NOT NULL;
 
 -- câu lệnh xóa column  ALTER TABLE tên_bảng DROP COLUMN tên_cột
-	 ALTER TABLE category DROP COLUMN status;
+	 --ALTER TABLE category DROP COLUMN status;
 
 -- câu lệnh thay đổi tên column 
 	EXEC sp_rename 'product.name', 'pro_name';
 
 -- câu lệnh thay đổi kiểu dữ liệu column ALTER TABLE table_name ALTER COLUMN column_name datatype
-	ALTER TABLE product ALTER COLUMN status tinyint;
+	--ALTER TABLE product ALTER COLUMN status tinyint;
 
 
 	/*
